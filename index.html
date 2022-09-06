@@ -14,7 +14,7 @@
     <main>
       <p>Please fill out this form with the required information</p>
       <form>
-        <fieldset>
+        <fieldset class="field1">
           <label for="fname">Enter Your First Name:</label><br />
           <input type="text" id="fname" name="fname" /><br />
           <label for="lname">Enter Your Last Name: </label><br />
@@ -32,8 +32,9 @@
             <input type="checkbox" id="terms-and-conditions" required name="terms-and-conditions" class="inline">
             <label for="terms-and-conditions">I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label><br>
         </fieldset>
-        <fieldset>
-          <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label><br>
+        <fieldset class="field2">
+          <label for="profile-picture">Upload a profile picture: </label>
+          <input id="profile-picture" type="file" name="file" /><br>
           <label for="age">Input your age (years): </label>
           <input type="number" id="age" name="age" min="13" max="120" /><br>
           <label for="referrer">How did you hear about us? </label>
