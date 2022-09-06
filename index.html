@@ -31,6 +31,22 @@
             <input type="checkbox" id="terms-and-conditions" required name="terms-and-conditions">
             <label for="terms-and-conditions">I accept the <a href="index2.html">terms and conditions</a></label><br>
         </fieldset>
+        <fieldset>
+          <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label><br>
+          <label for="age">Input your age (years): </label>
+          <input type="number" id="age" name="age" min="13" max="120" /><br>
+          <label for="referrer">How did you hear about us? </label>
+          <select name="referrer" id="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+          <label for="bio">Provide a bio:</label><br>
+          <textarea name="bio" id="bio" cols="30" rows="3" placeholder="I like coding on the beach..."></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" />
       </form>
     </main>
   </body>
