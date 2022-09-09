@@ -1,8 +1,9 @@
 body {
   width: 100%;
-  height: 100vh;
+  /*height: 100vh;*/
   margin: 0;
-  background-color: #1b1b32;
+  /*background-color: #1b1b32;*/
+  background-image: linear-gradient(to bottom right, #1b1b32, rgb(199, 131, 131));
   color: #f5f6f7;
   font-family: Tahoma;
   font-size: 16px;
@@ -36,8 +37,15 @@ fieldset:last-of-type {
     margin-top: 0.8em;
     margin-bottom: -0.7em;
 }
+.field1 {
+    padding-bottom: 2.7em;
+}
 
-.field2 label {
+.field2, .field3 {
+    padding-top: 1.6em;
+}
+
+.field3 label {
     display: block;
     margin-top: 0.8em;
     margin-bottom: 0.2em;
